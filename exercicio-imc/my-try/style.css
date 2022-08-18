@@ -14,7 +14,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: var(--primary-color);
+    background-color: green;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
     line-height: 1.5em;
@@ -70,11 +70,7 @@ button p {
         color: white;
     }
 
-.paragrafo-resultado, .bad {
+.paragrafo-resultado {
     background-color: rgb(95, 241, 76);
     padding: 20px;
-}
-
-.bad {
-    background-color: rgb(241, 76, 76);
 }
