@@ -1,4 +1,10 @@
+/*
+const h1 = document.querySelector('.exibicao');
+const data = new Date();    
+h1.innerHTML = data.toLocaleDateString('pt-BR', {dateStyle: 'full', timeStyle: 'short'});
+*/
 //Código Professor
+
 const h1 = document.querySelector('.exibicao');
 const data = new Date();
 
@@ -94,6 +100,7 @@ function createDate(data){
 createDate(data);
 
 h1.innerHTML = createDate(data);
+
 
 
 /*Meu Código
